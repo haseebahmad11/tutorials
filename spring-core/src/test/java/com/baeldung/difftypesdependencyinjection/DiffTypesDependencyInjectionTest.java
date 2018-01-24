@@ -37,6 +37,7 @@ public class DiffTypesDependencyInjectionTest {
 		student.setFirstName("Haseeb");
 		student.setLastName("Ahmad");
 		String studentName = classSetterInjection.getStudentName();
+		
 		assertTrue(studentName.equals(student.name()));
 	} 
 	
@@ -46,6 +47,7 @@ public class DiffTypesDependencyInjectionTest {
 		student.setFirstName("Haseeb");
 		student.setLastName("Ahmad");
 		String studentName = classConstructorInjection.getStudentName();
+		
 		assertTrue(studentName.equals(student.name()));
 	} 
 }

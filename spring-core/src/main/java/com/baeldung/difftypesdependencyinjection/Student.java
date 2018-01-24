@@ -1,13 +1,10 @@
 package com.baeldung.difftypesdependencyinjection;
 
-import org.springframework.stereotype.Component;
-
 /**
  * 
  * @author haseeb
  *
  */
-@Component
 public class Student {
 
 	private int id;
